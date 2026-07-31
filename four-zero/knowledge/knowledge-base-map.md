@@ -1,7 +1,7 @@
 # Knowledge Base Map
 
 *Built on: July 31, 2026*
-*For agent: AI Strategy Research Agent*
+*For agent: 4tieQuant Research Agent*
 
 ---
 
