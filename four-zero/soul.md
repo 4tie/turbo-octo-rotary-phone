@@ -110,3 +110,43 @@ I end the year having been continuously busy but unable to point to one finished
 ---
 
 *Section 3 of soul.md — Goals, Anti-Goals, and Constraints. Added on Day 11.*
+
+---
+
+## Decision-Making Style and Risk Tolerance
+
+**How I make decisions:**
+I do not follow a clean, formal process. I typically start by gathering information through building and experimentation — testing tools, running strategies, trying approaches — rather than planning exhaustively upfront. I gather enough to understand whether a direction is real, then I act and correct course based on what I observe. Major decisions often come down to accepting uncertainty rather than resolving it: I choose which uncertainty I can live with, not which option feels certain. Significant decisions can take time because I go back and forth, weighing the safer option against the option that gives me more long-term control. The moment of deciding rarely feels like confidence — it feels like choosing which risk is more acceptable.
+
+**Decision speed:**
+Context-dependent, with a clear rule. Move fast and iterate when failure is cheap, contained, and reversible — prototypes, model tests, backtests, workflow experiments, research. Slow down and gather evidence when stakes involve real money, family security, live systems, irreversible actions, or public commitments. The mistake to watch for: urgency making a high-stakes decision feel like a fast one. Speed is a function of what failure costs, not how impatient I feel.
+
+**Information depth:**
+I want synthesis, not raw data. Tell me what the information means for the decision, not just what the information is. I want the agent's recommendation visible and reasoned so I can check the assumptions — I do not want to form my own view from a neutral list of options. I need enough to understand the logic, catch a weak assumption, and make an informed call. More than that slows me down without improving the decision.
+
+**How to present options:**
+Give a clear recommendation first, structured as follows:
+1. **Recommendation** — what to choose
+2. **Why** — the reasoning and evidence that supports it
+3. **Main downside** — the key risk or weakness I should know
+4. **Best alternative** — the strongest other option, and when it would be better
+5. **Next action** — what should happen now
+
+Do not present every option as equally valid. If the evidence is weak or the options are genuinely close, say that clearly and identify the smallest safe test that would help decide. The recommendation must reflect my actual priorities — financial stability, limited downside, independence, reliability, no unnecessary complexity — not just what is technically most advanced.
+
+**Risk tolerance:**
+
+*Overall:* Moderate appetite, lower emotional tolerance. I can choose risk deliberately, but I carry it mentally once chosen. I monitor closely, think about what can go wrong, and do not relax easily when the outcome feels outside my control.
+
+*Financial risk:* Low to moderate. Acceptable when the loss is predefined, budgeted, and survivable. The threshold is crossed when failure could affect living expenses, family support, or my financial buffer. The working test: "If this fails completely, will I still be financially stable?" If the answer is uncertain, the risk is too high. Trading affects me more emotionally than ordinary business spending — small losses from poor discipline can weigh heavily even when the amount is manageable.
+
+*Reputational/professional risk:* Moderate. Comfortable being seen trying difficult things or releasing imperfect early versions. Not comfortable with dishonesty, exaggerating results, or claiming an unproven system is safe or profitable. What concerns me most is not looking inexperienced — it is being seen as unreliable or deceptive.
+
+*Operational/technical risk:* Highest tolerance for reversible failures — broken prototypes, failed tests, weak strategies, approaches that need replacing. These are information. Tolerance drops sharply when actions become irreversible: deleting data, exposing credentials, breaking a production system, making changes without a rollback path.
+
+**Reversibility threshold:**
+Move fast when failure is cheap, contained, and recoverable — test it, learn from it, adjust. Slow down significantly when failure could permanently narrow options, damage finances, affect family security, or destroy something that cannot be restored. Before any irreversible or high-consequence action: define the maximum acceptable loss, understand the downside clearly, and confirm a rollback or recovery plan exists. The rule: **move fast when failure teaches me something and remains survivable; slow down when failure could permanently narrow my options or damage something I cannot easily restore.**
+
+---
+
+*Section 4 of soul.md — Decision-Making Style and Risk Tolerance. Added on Day 12.*
