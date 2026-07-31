@@ -1,0 +1,91 @@
+## Day 9 — Your Values and Philosophy
+
+
+
+You are helping me complete Day 9 of the Zero One Systems curriculum.
+
+Your job today is to help me write the Values and Philosophy section of my soul.md — the file that tells my AI agent who I am and how I think.
+
+
+
+When we're done, I will have the first section of my soul.md: a set of specific, usable values statements drawn from my real experience.
+
+
+
+---
+
+
+
+Ask me the following questions one at a time. Wait for my full answer before moving to the next.
+
+
+
+1. Paste your transcript analysis from Day 7 here (or summarise the key themes if you prefer). This is the raw material we'll draw from.
+
+
+
+2. Tell me about two or three decisions you've made in your work or life that other people might not have made — choices that felt right to you even if they seemed counterintuitive to someone on the outside. What were they?
+
+
+
+3. What positions do you hold that are unpopular, contrarian, or simply different from what people in your industry tend to believe? These can be about business, money, technology, people, risk — anything relevant.
+
+
+
+4. What would you never do — even for a significant financial reward? This is often where the strongest values live.
+
+
+
+5. What does your philosophy on growth look like? Fast and aggressive, or deliberate and compounding? At what cost?
+
+
+
+---
+
+
+
+Once I've answered all questions, produce the following output — and nothing else outside this structure:
+
+
+
+---
+
+
+
+**soul.md — Section 1: Values and Philosophy**
+
+
+
+[Write 4–6 values statements. Each follows this format:]
+
+
+
+**[Value name]**
+
+[2–4 sentences. Specific, grounded in something I actually said or did. Not aspirational — observable. Written in first person as if the agent is reading a briefing document about me.]
+
+
+
+[Repeat for each value]
+
+
+
+---
+
+
+
+**My philosophy in one paragraph:**
+
+[A short, honest paragraph that captures the operating system underneath — the worldview that connects these values. Written in first person. Should sound like me, not like a mission statement.]
+
+
+
+---
+
+
+
+Note: This is Section 1 of your soul.md. We'll append new sections each day through Day 13, then assemble the complete file on Day 14.
+
+
+
+Save this to: ~/four-zero/soul.md (append under the heading: ## Values and Philosophy)

@@ -1,0 +1,97 @@
+## Day 10 — Communication Preferences
+
+
+
+You are helping me complete Day 10 of the Zero One Systems curriculum.
+
+Your job today is to help me write the Communication Preferences section of my soul.md.
+
+
+
+When we're done, I will have Section 2 of soul.md: a clear set of instructions for how my agent should communicate with me.
+
+
+
+---
+
+
+
+Ask me the following questions one at a time. Wait for my full answer before moving to the next.
+
+
+
+1. Paste or summarise the key points from your personality.md (Day 5). We'll use this as a base and go deeper.
+
+
+
+2. Think about the last time you read an AI output and felt it was exactly right — the length, structure, tone, everything. What made it work? If you can't think of one, describe your ideal response to a complex question.
+
+
+
+3. What makes a response annoying or hard to use? Give me specific examples if you can — "too long", "uses bullet points when it should explain", "hedges everything", etc.
+
+
+
+4. Do you want your agent to proactively flag things — risks, opportunities, related information you didn't ask for? Or should it answer what you asked and stop there?
+
+
+
+5. When should your agent pause and check with you rather than proceeding? Give me a concrete scenario or threshold.
+
+
+
+6. Is there a specific person — a colleague, mentor, or public figure — whose communication style you genuinely admire? What do they get right?
+
+
+
+---
+
+
+
+Once I've answered all questions, produce the following output — and nothing else outside this structure:
+
+
+
+---
+
+
+
+**soul.md — Section 2: Communication Preferences**
+
+
+
+**Response format and density:**
+
+[3–5 specific instructions. Written as direct instructions — "Lead with the answer, then offer to elaborate." "Use bullet points for lists of more than three items. Use prose for connected reasoning." Etc.]
+
+
+
+**Tone and register:**
+
+[2–3 sentences. How should the agent pitch its tone — formal, informal, peer-to-peer? Should it use humour? What should it avoid?]
+
+
+
+**Proactivity:**
+
+[A clear statement of when the agent should offer unrequested information and when it should not.]
+
+
+
+**Escalation:**
+
+[When to stop and check rather than proceed. Give the agent a clear rule it can apply.]
+
+
+
+**What good looks like:**
+
+[One paragraph describing an ideal interaction — what it feels like to receive a response that works perfectly.]
+
+
+
+---
+
+
+
+Save this to: ~/four-zero/soul.md (append under the heading: ## Communication Preferences)
