@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>4TIE OS // V1.0</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ── HEADER BAR ────────────────────────────────────────────────────────── -->
+<div id="header-bar">
+  <div id="hb-left">
+    <span id="hb-static">4TIE OS // V1.0 · INTERNAL // </span>
+    <button id="theme-btn" onclick="cycleTheme()" title="Click to change theme">RIYADH ⬡</button>
+    <span>&nbsp;· UTC+3</span>
+  </div>
+  <span id="header-right" onclick="refreshAll()">
+    <span class="refresh-circle"></span>
+    <span id="hb-sync">◌ REFRESH &nbsp; SYNCED --:--</span>
+  </span>
+</div>
+
+<!-- ── GREETING ──────────────────────────────────────────────────────────── -->
+<div id="greeting-section">
+  <div id="greeting-left">
+    <div id="greeting-label">00 // SESSION · 4TIE OS V1.0</div>
+    <div id="greeting-text">
+      <span class="g-light" id="g-prefix">Good morning, </span><span class="g-name">4tie.</span>
+    </div>
+    <div id="greeting-date"></div>
+  </div>
+  <div id="greeting-right">
+    <div id="live-clock">--:--:--</div>
+    <div id="clock-meta">SYNCED --:-- · UTC+3 · RIYADH</div>
+  </div>
+</div>
+
+<!-- ── MAIN GRID ──────────────────────────────────────────────────────────── -->
+<div id="main-grid">
+
+  <!-- LEFT COLUMN -->
+  <div id="col-left">
+
+    <!-- 01 // PRIORITY QUEUE -->
+    <div class="panel">
+      <div class="panel-header">
+        <span class="panel-label">01 // PRIORITY QUEUE</span>
+        <div class="pq-header-right">
+          <button class="pq-add-btn" onclick="openAddPrio()" title="Add new priority">⊕ ADD</button>
+          <div class="panel-status">
+            <span class="status-dot dot-green" id="pq-dot"></span>
+            <span id="pq-count">— ACTIVE</span>
+          </div>
+        </div>
+      </div>
+      <div id="priority-list"></div>
+    </div>
+
+    <!-- 02 // MARKET SENTIMENT -->
+    <div class="panel">
+      <div class="panel-header">
+        <span class="panel-label">02 // MARKET SENTIMENT</span>
+        <div class="panel-status">
+          <span class="status-dot dot-green" id="fg-status-dot"></span>
+          <span id="fg-status-label">LIVE · ALT.ME</span>
+        </div>
+      </div>
+      <div id="fg-display">
+        <div id="fg-value">--</div>
+        <div id="fg-label">LOADING…</div>
+        <div id="fg-meter"><div id="fg-fill" style="width:0%"></div></div>
+        <div class="fg-scale">
+          <span>EXTREME FEAR</span>
+          <span>NEUTRAL</span>
+          <span>EXTREME GREED</span>
+        </div>
+        <div id="fg-update"></div>
+      </div>
+    </div>
+
+  </div><!-- /col-left -->
+
+  <!-- CENTER COLUMN -->
+  <div id="col-center">
+    <div class="panel">
+      <div class="panel-header">
+        <span class="panel-label">R1 // CRYPTO WATCHLIST</span>
+        <div class="panel-status">
+          <span class="status-dot dot-green" id="wl-status-dot"></span>
+          <span id="wl-status-label">LIVE · BINANCE</span>
+        </div>
+      </div>
+      <div id="watchlist-rows">
+        <div class="loading-row"><span class="spinner"></span> FETCHING LIVE PRICES…</div>
+      </div>
+      <div id="watchlist-refresh"></div>
+      <button id="browse-btn" onclick="openModal()">⊕ &nbsp; BROWSE ALL BINANCE PAIRS</button>
+    </div>
+  </div>
+
+  <!-- RIGHT COLUMN -->
+  <div id="col-right">
+    <div class="panel">
+      <div class="panel-header">
+        <span class="panel-label">C1 // CRYPTO NEWS</span>
+        <div class="panel-status">
+          <span class="status-dot dot-green" id="news-status-dot"></span>
+          <span id="news-status-label">LAST 6</span>
+        </div>
+      </div>
+      <div id="news-feed">
+        <div class="loading-row"><span class="spinner"></span> FETCHING HEADLINES…</div>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /main-grid -->
+
+<!-- ── PAIR BROWSER MODAL ─────────────────────────────────────────────────── -->
+<div id="modal-overlay" class="overlay" onclick="handleOverlayClick(event,'modal-overlay')">
+  <div id="modal-box">
+    <div class="modal-head">
+      <span class="modal-title">00 // BINANCE PAIR BROWSER &nbsp;·&nbsp; USDT MARKETS</span>
+      <button class="modal-close-btn" onclick="closeModal()">✕</button>
+    </div>
+    <div id="modal-search-wrap">
+      <input id="modal-search" type="text"
+             placeholder="SEARCH PAIR  e.g. SOL, DOGE, PEPE…"
+             oninput="filterPairs()" autocomplete="off" spellcheck="false">
+    </div>
+    <div id="modal-subhead">
+      <span class="sh-sym">PAIR</span>
+      <span class="sh-price">PRICE</span>
+      <span class="sh-chg">24H %</span>
+      <span class="sh-vol">VOLUME</span>
+      <span class="sh-fav"></span>
+    </div>
+    <div id="modal-pairs-list">
+      <div class="loading-row" style="padding:20px 0">
+        <span class="spinner"></span> LOADING ALL PAIRS…
+      </div>
+    </div>
+    <div id="modal-foot">
+      <span id="modal-load-state">—</span>
+      <span>★ TO FAVOURITE &nbsp;·&nbsp; ESC TO CLOSE</span>
+    </div>
+  </div>
+</div>
+
+<!-- ── PRIORITY DETAIL MODAL ──────────────────────────────────────────────── -->
+<div id="prio-modal-overlay" class="overlay" onclick="handleOverlayClick(event,'prio-modal-overlay')">
+  <div id="prio-modal-box">
+    <div class="modal-head">
+      <span class="modal-title" id="prio-modal-title">// PRIORITY DETAIL</span>
+      <button class="modal-close-btn" onclick="closePrioModal()">✕</button>
+    </div>
+    <div class="pm-body">
+      <div class="pm-field">
+        <label>TITLE</label>
+        <input id="pm-text" type="text" class="pm-input"
+               placeholder="Priority title…" spellcheck="false">
+      </div>
+      <div class="pm-field">
+        <label>CATEGORY TAG</label>
+        <select id="pm-tag" class="pm-select">
+          <option value="STRATEGY">STRATEGY</option>
+          <option value="RESEARCH">RESEARCH</option>
+          <option value="RISK">RISK</option>
+          <option value="TRADING">TRADING</option>
+          <option value="ANALYSIS">ANALYSIS</option>
+          <option value="REVIEW">REVIEW</option>
+          <option value="OTHER">OTHER</option>
+        </select>
+      </div>
+      <div class="pm-field">
+        <label>NOTES &amp; CONTEXT</label>
+        <textarea id="pm-notes" class="pm-textarea"
+                  placeholder="Add details, links, resources, or context for this priority…"
+                  spellcheck="false"></textarea>
+      </div>
+      <div class="pm-field">
+        <label>STATUS</label>
+        <div class="pm-status-row">
+          <button class="pm-status-btn active-state" id="pm-btn-active"
+                  onclick="setPrioStatus('active')">◉ ACTIVE</button>
+          <button class="pm-status-btn" id="pm-btn-done"
+                  onclick="setPrioStatus('done')">✓ DONE</button>
+        </div>
+      </div>
+    </div>
+    <div class="pm-footer">
+      <button class="pm-btn pm-btn-delete" onclick="deletePrioFromModal()">⌫ DELETE</button>
+      <div style="display:flex;gap:8px;align-items:center">
+        <span class="pm-created" id="pm-created"></span>
+        <button class="pm-btn pm-btn-cancel" onclick="closePrioModal()">CANCEL</button>
+        <button class="pm-btn pm-btn-save" onclick="savePrioDetail()">SAVE</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ── ADD PRIORITY MODAL ─────────────────────────────────────────────────── -->
+<div id="add-prio-overlay" class="overlay" onclick="handleOverlayClick(event,'add-prio-overlay')">
+  <div id="add-prio-box">
+    <div class="modal-head">
+      <span class="modal-title">NEW // PRIORITY ITEM</span>
+      <button class="modal-close-btn" onclick="closeAddPrio()">✕</button>
+    </div>
+    <div class="pm-body">
+      <div class="pm-field">
+        <label>TITLE</label>
+        <input id="add-pm-text" type="text" class="pm-input"
+               placeholder="What do you need to accomplish?" spellcheck="false">
+      </div>
+      <div class="pm-field">
+        <label>CATEGORY TAG</label>
+        <select id="add-pm-tag" class="pm-select">
+          <option value="STRATEGY">STRATEGY</option>
+          <option value="RESEARCH">RESEARCH</option>
+          <option value="RISK">RISK</option>
+          <option value="TRADING">TRADING</option>
+          <option value="ANALYSIS">ANALYSIS</option>
+          <option value="REVIEW">REVIEW</option>
+          <option value="OTHER">OTHER</option>
+        </select>
+      </div>
+      <div class="pm-field">
+        <label>NOTES &amp; CONTEXT</label>
+        <textarea id="add-pm-notes" class="pm-textarea"
+                  placeholder="Optional: add details, links, or context…"
+                  spellcheck="false"></textarea>
+      </div>
+    </div>
+    <div class="pm-footer">
+      <span class="pm-created">ESC TO CANCEL</span>
+      <div style="display:flex;gap:8px">
+        <button class="pm-btn pm-btn-cancel" onclick="closeAddPrio()">CANCEL</button>
+        <button class="pm-btn pm-btn-save" onclick="saveAddPrio()">⊕ ADD TO QUEUE</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ── SCRIPTS (load order matters) ──────────────────────────────────────── -->
+<script src="js/config.js"></script>
+<script src="js/utils.js"></script>
+<script src="js/theme.js"></script>
+<script src="js/clock.js"></script>
+<script src="js/priorities.js"></script>
+<script src="js/watchlist.js"></script>
+<script src="js/news.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
