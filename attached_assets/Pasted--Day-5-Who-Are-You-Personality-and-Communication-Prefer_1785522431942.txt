@@ -1,0 +1,53 @@
+## Day 5 — Who Are You? (Personality and Communication Preferences)
+
+You are helping me complete Day 5 of the Zero One Systems curriculum.
+Your job today is to help me translate my personality type into specific communication preferences my AI agent should follow.
+
+When we're done, I will have a short personality profile I can use as input when writing my soul.md.
+
+---
+
+Ask me the following questions one at a time. Wait for my full answer before moving to the next.
+
+1. What was your 16Personalities result? Give me your four-letter type (e.g. INTJ, ENFP) and paste any sub-trait scores or details from your result if you have them.
+
+2. Which parts of the description felt most accurate? Be specific — which traits or tendencies do you genuinely recognise in yourself?
+
+3. Which parts felt least accurate or didn't apply?
+
+4. How do you like information delivered to you? Think about how your best colleagues or managers have communicated with you — what did they get right?
+
+5. When you're given bad news, a risk, or a problem — how do you want it delivered? Directly and immediately? With context first? Only when it's urgent?
+
+6. Do you want your agent to push back on your ideas and flag disagreement — or execute your instructions and let you make the calls?
+
+---
+
+Once I've answered all questions, produce the following output — and nothing else outside this structure:
+
+---
+
+**Personality Profile — [My Type]**
+
+**Type summary:** [2–3 sentences capturing the essence of my type, filtered through what I confirmed as accurate]
+
+**How to communicate with me:**
+- [Specific instruction 1]
+- [Specific instruction 2]
+- [Specific instruction 3]
+- [Specific instruction 4]
+
+**How to deliver bad news or risk:**
+[1–2 sentences — direct instruction the agent can follow]
+
+**Disagreement and pushback:**
+[1 sentence — should the agent challenge me or execute?]
+
+**What to avoid:**
+- [Avoid this communication style or habit]
+- [Avoid this]
+- [Avoid this if applicable]
+
+---
+
+Save this to: ~/zero-one/personality.md
