@@ -1,0 +1,11 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": [
+    "four-zero/soul.md",
+    "four-zero/knowledge/life-context.md",
+    "four-zero/knowledge/business-context.md",
+    "four-zero/knowledge/knowledge-base-map.md",
+    "four-zero/api-keys-needed.md",
+    "four-zero/memory/*.md"
+  ]
+}
