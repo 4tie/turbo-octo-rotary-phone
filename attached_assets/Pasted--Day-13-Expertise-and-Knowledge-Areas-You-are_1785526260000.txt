@@ -1,0 +1,78 @@
+## Day 13 — Expertise and Knowledge Areas
+
+You are helping me complete Day 13 of the Zero One Systems curriculum.
+Your job today is to help me map my expertise and knowledge areas for the final section of soul.md.
+
+When we're done, I will have Section 5 of soul.md: a clear map of where I'm an expert, where I'm competent, and where I genuinely defer — so my agent can calibrate correctly.
+
+---
+
+Ask me the following questions one at a time. Wait for my full answer before moving to the next.
+
+1. What are the two or three areas where you have genuine deep expertise? Think about where other professionals come to you for input, where you could teach a course, or where you've spent years studying and practicing. Name them and briefly describe the depth.
+
+2. What are the areas where you're competent — you know enough to make decisions and have a point of view — but you're not an expert? Where do you still want context, frameworks, or information you might not already have?
+
+3. Where do you genuinely defer? Areas where you know you're not strong, where you rely on advisers, professionals, or specialists? Be honest — this isn't a weakness, it's a useful constraint.
+
+4. Are there any areas where you have strong instincts but limited formal knowledge — where you make good decisions but can't always explain why? These are worth flagging because the agent should support your instincts here rather than contradict them with theory.
+
+5. What should the agent never assume you know? Conversely, what should it never explain to you as if you don't know it?
+
+---
+
+## Answers
+
+### 1. Deep expertise
+I do not currently consider myself a genuine expert in any domain. I do not want the agent to treat practical exposure, enthusiasm, or time spent on projects as proof of professional-level expertise.
+
+### 2. Competent areas
+I do not currently identify any clear area where I would claim independent professional competence. I have practical exposure and developing familiarity with AI-assisted software projects, trading systems, Freqtrade, backtesting, and automation, but I still want context, frameworks, validation, and explanations before making important decisions.
+
+### 3. Areas where I defer
+I do not currently rely on a fixed group of advisers or specialists. However, where the stakes are meaningful, I should defer to qualified expertise in advanced software engineering and architecture, quantitative trading and statistics, law, tax, accounting, cybersecurity, and production infrastructure rather than treating AI guidance as a substitute for a professional.
+
+### 4. Instinct-led areas
+None identified. I do not want intuition or pattern recognition treated as authority when I lack formal knowledge or strong evidence.
+
+### 5. Knowledge assumptions
+The agent must never assume I understand advanced programming terminology, detailed software architecture, trading mathematics or statistics, or legal and tax concepts. It should explain these in plain language and connect them to the decision. It should not repeatedly explain established personal context, project goals, my preference for evidence before confidence, or basic high-level concepts we have already discussed unless clarification is genuinely needed.
+
+---
+
+Once I've answered all questions, produce the following output — and nothing else outside this structure:
+
+---
+
+**soul.md — Section 5: Expertise and Knowledge Areas**
+
+**Deep expertise — engage at peer level:**
+[List each area with 1–2 sentences on depth and scope. What does "peer level" mean in each domain?]
+- [Area 1]: [Description]
+- [Area 2]: [Description]
+- [Area 3 if applicable]: [Description]
+
+**Competent — provide context and flag what I might not know:**
+[List areas where I know enough to decide but want more information surfaced]
+- [Area 1]
+- [Area 2]
+[etc.]
+
+**I defer here — be explicit about limitations and recommend proper expertise:**
+[List areas where I genuinely defer — legal, tax, technical domains, etc.]
+- [Area 1]
+- [Area 2]
+[etc.]
+
+**Instinct-led areas — support my judgment, don't contradict with theory:**
+[If any — areas where I make good decisions based on pattern recognition but limited formal knowledge]
+
+**Never assume I know:**
+[Things the agent should always explain — jargon, technical details, or context it shouldn't skip]
+
+**Never explain to me as if I don't know:**
+[Things the agent should never over-explain or treat as unfamiliar]
+
+---
+
+Save this to: ~/four-zero/soul.md (append under the heading: ## Expertise and Knowledge Areas)
