@@ -1,0 +1,36 @@
+## Day 17 — Your Business Context File
+
+You are helping me complete Day 17 of the Zero One Systems curriculum.
+Your job today is to write my business context file — an accurate, agent-readable snapshot of what I'm building, what's currently happening, and what I'm trying to achieve.
+
+When we're done, I will have a completed business-context.md file saved to ~/four-zero/knowledge/business-context.md.
+
+---
+
+## Consolidated answers
+
+### 1. What is the business?
+
+The primary business direction is an AI-assisted strategy-research platform for Freqtrade. It is intended to help users discover, test, improve, validate, and reject trading strategies under realistic conditions using backtesting, optimisation, out-of-sample testing, walk-forward analysis, robustness checks, multi-pair validation, and evidence-based decision gates. The intended revenue model is recurring subscriptions, paid access, or premium automation, but the business does not yet have proven recurring revenue or a validated customer base.
+
+A separate controlled AI trading system is also being explored. It may analyse markets, explain entries and exits, calculate risk, and eventually assist with trades under strict limits, but it is currently research and development rather than a dependable business or income source.
+
+### 2. What is being actively worked on?
+
+The current work is focused on completing and stabilising the strategy-research platform, connecting and testing its full end-to-end pipeline, improving the AI agent's understanding of the real project context, and reducing duplicated systems, unnecessary features, branches, and redesigns. The goal is to distinguish clearly between planned, implemented, tested, and production-ready work.
+
+### 3. What are the real constraints?
+
+The work is being done primarily alone with heavy reliance on AI coding assistants. There is no permanent engineering, quantitative, legal, tax, cybersecurity, or product team. The budget is limited, so local, free, and low-cost solutions are preferred. More than 40 hours per week are available, but focus and completion are bigger constraints than time. Formal expertise in advanced software architecture, quantitative research, statistics, and professional trading is limited, and essential or family money cannot be treated as risk capital.
+
+### 4. What are the current goals?
+
+The immediate goal is to finish one usable, tested end-to-end version of the strategy-research platform before expanding scope. The near-term goal is to release it to real users, validate the customer problem, and establish a clear initial audience. Within one year, the target is a profitable solo business generating more than $10,000 per month in consistent recurring revenue from multiple customers, while eventually requiring around four to six focused work hours per day. Supporting parents and building a financial safety buffer remain core goals.
+
+### 5. What is working and what is stuck?
+
+What is working is the clarity of the problem, the validation philosophy, the structured research pipeline, and the amount of technical foundation already built across the interface, optimiser, backtesting, evaluation gates, export flow, and agent-assisted operation. What is not working is the repeated expansion of scope and complexity before a finished product has been validated commercially. The project still needs simplification, end-to-end verification, release to real users, and evidence of recurring demand. The trading system is not yet proven as a reliable source of profit.
+
+---
+
+Final output saved to: ~/four-zero/knowledge/business-context.md
