@@ -1,0 +1,10 @@
+# Local secrets
+.api-keys.env
+**/.api-keys.env
+.env
+**/.env
+*.env
+
+# Safe templates
+!*.env.example
+!**/*.env.example
