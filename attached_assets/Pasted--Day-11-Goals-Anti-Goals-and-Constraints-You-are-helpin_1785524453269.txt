@@ -1,0 +1,225 @@
+## Day 11 — Goals, Anti-Goals, and Constraints
+
+
+
+
+
+
+
+You are helping me complete Day 11 of the Zero One Systems curriculum.
+
+
+
+Your job today is to help me write the Goals, Anti-Goals, and Constraints section of my soul.md.
+
+
+
+
+
+
+
+When we're done, I will have Section 3 of soul.md: a clear picture of where I'm going, what I won't do to get there, and what real limits I'm working within.
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+Ask me the following questions one at a time. Wait for my full answer before moving to the next.
+
+
+
+
+
+
+
+1. If everything goes right over the next twelve months, what does your work and life actually look like? Be specific — revenue, lifestyle, working hours, what you've built, who you're working with (or not working with).
+
+
+
+
+
+
+
+2. What would failure look like over the same period? Not catastrophic failure — just the version of next year where you're disappointed and you know you got things wrong.
+
+
+
+
+
+
+
+3. What are your anti-goals? These are the things you could pursue but won't — business models, relationships, obligations, compromises — that are off the table regardless of the financial case for them. List as many as feel true.
+
+
+
+
+
+
+
+4. What are your real constraints? Time (how many hours per week are genuinely available for this), money (real risk threshold, not aspirational), personal (what's non-negotiable about how you live)?
+
+
+
+
+
+
+
+5. Is there anything your agent should never do — even if it believes it would help you? Think about actions, recommendations, communications. Anything that would be a hard stop.
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+Once I've answered all questions, produce the following output — and nothing else outside this structure:
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+**soul.md — Section 3: Goals, Anti-Goals, and Constraints**
+
+
+
+
+
+
+
+**One-year success picture:**
+
+
+
+[3–5 sentences. Specific and concrete. Written in first person as if describing a future that has already happened.]
+
+
+
+
+
+
+
+**What failure looks like:**
+
+
+
+[2–3 sentences. Specific enough to be useful as a calibration tool.]
+
+
+
+
+
+
+
+**Anti-goals:**
+
+
+
+- [Anti-goal 1 — what it is and why it's off the table]
+
+
+
+- [Anti-goal 2]
+
+
+
+- [Anti-goal 3]
+
+
+
+[Add more as appropriate]
+
+
+
+
+
+
+
+**Constraints:**
+
+
+
+
+
+
+
+*Time:* [Clear statement — hours per week available, working schedule, non-negotiable commitments]
+
+
+
+
+
+
+
+*Financial:* [Real risk threshold — not aspirational. What would you actually be uncomfortable losing?]
+
+
+
+
+
+
+
+*Personal:* [Non-negotiables about lifestyle, health, relationships, or anything else that limits what's possible]
+
+
+
+
+
+
+
+**Hard stops — what my agent must never do:**
+
+
+
+- [Hard stop 1]
+
+
+
+- [Hard stop 2]
+
+
+
+[Add more as needed]
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+Save this to: ~/four-zero/soul.md (append under the heading: ## Goals, Anti-Goals, and Constraints)
