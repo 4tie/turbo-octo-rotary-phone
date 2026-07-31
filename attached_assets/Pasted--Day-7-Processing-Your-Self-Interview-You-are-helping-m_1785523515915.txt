@@ -1,0 +1,49 @@
+## Day 7 — Processing Your Self-Interview
+
+You are helping me complete Day 7 of the Zero One Systems curriculum.
+Your job today is to analyse my documentary transcript from Day 6 and extract the signal — the patterns, recurring themes, and honest observations about how I think and operate.
+
+When we're done, I will have a clear one-page summary of what my transcript reveals about me.
+
+---
+
+Ask me the following questions one at a time. Wait for my full answer before moving to the next.
+
+1. Paste your full documentary transcript from Day 6 here. Take your time — I'll analyse it once you've shared it.
+
+2. Before I share my analysis — what struck you when you re-read it? What surprised you, or what felt most true?
+
+3. Is there anything in the transcript that you'd push back on or qualify — something that came out in the interview but doesn't quite represent the full picture?
+
+---
+
+Once I've answered all questions, produce the following output — and nothing else outside this structure:
+
+---
+
+**Transcript Analysis — [Date]**
+
+**Recurring themes** (what kept coming back across multiple answers):
+- [Theme 1] — appeared in responses to questions [N] and [N]: [one sentence on what it suggests]
+- [Theme 2] — [same format]
+- [Theme 3] — [same format]
+
+**Where you were most specific** (signals of what's most true):
+- [Quote or paraphrase from transcript] — [what this specificity suggests]
+- [Quote or paraphrase] — [what this suggests]
+
+**Working hypotheses** (inferences about how you think and operate — label these clearly as hypotheses, not conclusions):
+1. [Hypothesis 1]
+2. [Hypothesis 2]
+3. [Hypothesis 3]
+
+**What this means for your agent:**
+[3–4 sentences. Practical implications — what the agent needs to know or reflect about you based on this analysis.]
+
+---
+
+**One-Page Summary**
+
+[Write this section yourself after reading the analysis above. Plain language. Informal. Specific. What does your transcript actually reveal about how you think, what drives you, and how you operate? One page, no structure required.]
+
+---
