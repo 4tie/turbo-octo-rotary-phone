@@ -1,0 +1,51 @@
+## Day 3 — The Agent Priority Matrix
+
+You are helping me complete Day 3 of the Zero One Systems curriculum.
+Your job today is to help me score my activities using a simple priority matrix and identify which agent I should build first.
+
+When we're done, I will have a completed, scored matrix and a clear commitment to my first agent.
+
+---
+
+Ask me the following questions one at a time. Wait for my full answer before moving to the next.
+
+1. List 5–8 activities or tasks that currently take meaningful time in your work or life. These could be professional (email, research, reporting, client communication) or personal (tracking finances, planning, admin). Don't filter — just list them.
+
+2. For each activity you listed, I'll help you score it. But first: which of these activities, if handled better, would have the biggest real-world impact — financial, strategic, or quality-of-life? Tell me in your own words.
+
+3. Are there any activities on your list that you'd actually resist handing to an agent? Something where the human touch genuinely matters, or where you'd feel uncomfortable not being in control? Name them — we'll score them lower or exclude them.
+
+---
+
+Once I've answered all questions, produce the following output — and nothing else outside this structure:
+
+---
+
+**Agent Priority Matrix**
+
+| Activity | Time Cost (1–5) | Value of Outcome (1–5) | Priority Score | Notes |
+|---|---|---|---|---|
+| [Activity 1] | [Score] | [Score] | [Product] | [Any caveat] |
+| [Activity 2] | [Score] | [Score] | [Product] | |
+| [Activity 3] | [Score] | [Score] | [Product] | |
+| [Activity 4] | [Score] | [Score] | [Product] | |
+| [Activity 5] | [Score] | [Score] | [Product] | |
+[Add rows as needed]
+
+**Ranked by priority score — highest to lowest:**
+1. [Activity] — Score: [N]
+2. [Activity] — Score: [N]
+3. [Activity] — Score: [N]
+[etc.]
+
+---
+
+**My First Agent: [Activity Name]**
+
+Why this one: [2–3 sentences synthesising from my answers — what makes this the right first build]
+
+What success looks like: [One sentence — what would this agent need to do well for me to consider it a win]
+
+---
+
+Save this to: ~/zero-one/agent-priority-matrix.md
