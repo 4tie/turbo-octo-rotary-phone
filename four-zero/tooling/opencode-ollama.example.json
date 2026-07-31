@@ -1,0 +1,26 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "ollama/YOUR_MODEL_NAME",
+  "provider": {
+    "ollama": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Ollama (local)",
+      "options": {
+        "baseURL": "http://localhost:11434/v1"
+      },
+      "models": {
+        "YOUR_MODEL_NAME": {
+          "name": "Your local Ollama model"
+        }
+      }
+    }
+  },
+  "instructions": [
+    "four-zero/soul.md",
+    "four-zero/knowledge/life-context.md",
+    "four-zero/knowledge/business-context.md",
+    "four-zero/knowledge/knowledge-base-map.md",
+    "four-zero/api-keys-needed.md",
+    "four-zero/memory/*.md"
+  ]
+}
